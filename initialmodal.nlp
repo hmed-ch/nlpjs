@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "languages": [
+      "fr"
+    ],
+    "keepStopWords": true,
+    "fullSearchWhenGuessed": false,
+    "useNlg": true,
+    "useNeural": true,
+    "useLRC": true
+  },
+  "languages": [
+    "fr"
+  ],
+  "intentDomains": {},
+  "nerManager": {
+    "settings": {},
+    "threshold": 0.8,
+    "builtins": [
+      "Number",
+      "Ordinal",
+      "Percentage",
+      "Age",
+      "Currency",
+      "Dimension",
+      "Temperature",
+      "DateTime",
+      "PhoneNumber",
+      "IpAddress",
+      "Boolean",
+      "Email",
+      "Hashtag",
+      "URL"
+    ],
+    "namedEntities": {}
+  },
+  "slotManager": {},
+  "classifiers": [
+    {
+      "language": "fr",
+      "docs": [],
+      "features": {},
+      "logistic": {
+        "observations": {},
+        "labels": [],
+        "observationCount": 0
+      },
+      "useLRC": true,
+      "useNeural": true,
+      "neuralClassifier": {
+        "settings": {
+          "config": {
+            "activation": "leaky-relu",
+            "hiddenLayers": [],
+            "learningRate": 0.1,
+            "errorThresh": 0.0005
+          }
+        },
+        "classifierMap": {}
+      }
+    }
+  ],
+  "responses": {}
+}
